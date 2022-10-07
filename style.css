@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 1;
 }
 
 .hero {
@@ -9,12 +13,16 @@ body {
 }
 
 .header {
+    padding: 16px;
     display: flex;
     justify-content: space-between;
 }
 
 .header2 {
+    padding: 16px;
     display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .logo {
@@ -24,7 +32,7 @@ body {
 
 .hero-main {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight:900;
     color: #F9FAF8;
 }
 
@@ -48,17 +56,38 @@ body {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
+    padding: 16px;
+}
+
+.four-images{
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    flex: 1 1 auto;
 }
 
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
+    padding: 16px;
+}
+
+.thor{
+    padding: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.banner {
+    padding: 16px;
 }
 
 .footer {
+    padding: 16px;
     background-color:#1F2937;
     color: white;
+    text-align: center;
 }
 
 ul {
@@ -77,5 +106,16 @@ button {
     padding: 8px 16px;
     background-color: #3882F6;
     color: #ffffff;
+    border-radius: 5px;
+}
+
+.sign-up {
+    padding: 16px 0px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
     border-radius: 5px;
 }
