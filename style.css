@@ -3,7 +3,6 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    flex: 2 1 1;
 }
 
 .hero {
@@ -60,6 +59,7 @@ body {
 }
 
 .four-images{
+    width: 100%;
     padding: 16px;
     display: flex;
     gap: 16px;
@@ -71,6 +71,7 @@ body {
     font-size: 36px;
     color: #1F2937;
     padding: 16px;
+    font-style: italic;
 }
 
 .thor{
@@ -81,6 +82,13 @@ body {
 
 .banner {
     padding: 16px;
+    margin: 32px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .footer {
@@ -107,15 +115,15 @@ button {
     background-color: #3882F6;
     color: #ffffff;
     border-radius: 5px;
+    border-color: #F9FAF8;
 }
 
 .sign-up {
     padding: 16px 0px;
 }
 
+
 img {
-    width: 100%;
-    height: 300px;
-    margin: 10px;
+    width: 50%;
     border-radius: 5px;
 }
